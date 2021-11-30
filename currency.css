@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Jura:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    color: hsl(0deg 0% 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 376px;
+    background: url('currency_bg.jpg');
+    box-shadow: inset 3px 0px 16px #2f332d, 3px 3px 46px #4e4b4b;
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 515px;
+    
+}
+.heading1{
+    
+    font-family: 'Amaranth', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 60px;
+}
+.subheading{
+    font-size: 11px;
+}
+#currencyIcon{
+    font-size: 11px;
+}
+.convertedNo{
+    
+    font-family: 'Amaranth', sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.currencyIcon{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.label1{
+    margin-left: -300px;
+    color: hsl(48deg 1% 64%);
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.dropdown-menu{
+    height: 200px;
+    overflow-y: scroll;
+    width: 187px;
+    font-size: 10px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}  
+.input-group>.form-control, .input-group>.form-select {
+    box-shadow: inset 0px 6px 6px grey, 6px 2px 10px black;
+}
+.label2{
+    
+    color: hsl(48deg 1% 64%);
+    font-size: 12px;
+    margin-left: 38px;
+
+}
+.dropdown1{
+    display: flex;
+    align-items: center;
+}
+.flagImg1{
+    margin: 0px 10px;
+}
+.form-select{
+    font-size: 12px;
+    font-family: 'Amaranth';
+    border-radius: 6px;
+    box-shadow: inset 2px 2px 10px black, 5px 4px 10px #0c0b0b;
+}
+
+.label3{
+    
+    color: hsl(48deg 1% 64%);
+    font-size: 12px;
+    margin-left: 38px;
+
+}
+.dropdown2{
+    display: flex;
+    align-items: center;
+}
+.flagImg2{
+    margin: 0px 10px;
+}
+.btn{
+    border-radius: 6px;
+    box-shadow: inset 3px 3px 10px black, 5px 4px 10px #0c0b0b;
+
+}
+.dropdown-toggle::after {
+    margin-left: 8px;
+}
+
+#btnConvert{
+    width: 310px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
